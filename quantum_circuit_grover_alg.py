@@ -26,3 +26,4 @@ for _ in range(1000):
 
 result_array = np.array(result_list)
 print(np.unique(result_array, return_counts=True, axis=0))
+print("Expected results: ", np.unique(np.zeros_like(result_array), return_counts=True, axis=0))

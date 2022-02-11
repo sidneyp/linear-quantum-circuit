@@ -6,7 +6,10 @@ collapsing the quantum states in binary when two or more qubits interact.
 
 In this approach, the n qubits are represented by n superposition state vectors
 in two-dimensional Hilbert space. While the standard representation for n qubits
-are one superposition state vector in 2<sup>n</sup> dimensional Hilbert space. [Source](https://en.wikipedia.org/wiki/Qubit)
+is one superposition state vector in 2<sup>n</sup> dimensional Hilbert space. [Source](https://en.wikipedia.org/wiki/Qubit)
+
+Our quantum circuit simulation works for several small circuits. However, there
+are larger circuits that this method fails, such as Grover's algorithm circuit.
 
 
 | Circuit                     | Script                           | Working? |

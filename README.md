@@ -1,5 +1,13 @@
 # linear-quantum-circuit
-Trying to simulate a quantum circuit linearly
+Trying to simulate a quantum circuit linearly.
+
+The idea behind making a linear simulation of a quantum circuit is by
+collapsing the quantum states in binary when two or more qubits interact.
+
+In this approach, the n qubits are represented by n superposition state vectors
+in two-dimensional Hilbert space. While the standard representation for n qubits
+are one superposition state vector in 2<sup>n</sup>. [Source](https://en.wikipedia.org/wiki/Qubit)
+
 
 | Circuit                     | Script                           | Working? |
 |-----------------------------|----------------------------------|----------|
